@@ -28,7 +28,7 @@ class BumpType(Enum):
     MINOR = "minor"
     PATCH = "patch"
     PRE = "pre"
-    POST = "post"
+    
 
 
 def _get_bumped_version(current: VersionInfo, bump_type: BumpType) -> VersionInfo:
